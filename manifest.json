@@ -1,0 +1,32 @@
+{
+  "name": "jasonpark.me",
+  "short_name": "jasonpark.me",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3D3D3D",
+  "background_color": "#3D3D3D",
+  "author": "Jinseo Jason Park",
+  "description": "Jinseo Jason Park",
+  "icons": [
+    {
+      "src": "https://graph.facebook.com/1935436059816712/picture?type=small",
+      "sizes": "50x50",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://graph.facebook.com/1935436059816712/picture?type=normal",
+      "sizes": "100x100",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://graph.facebook.com/1935436059816712/picture?type=large",
+      "sizes": "200x200",
+      "type": "image/jpeg"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}
