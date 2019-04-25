@@ -1,5 +1,4 @@
 'use strict';
-
 import path from 'path';
 import gulp from 'gulp';
 import babel from 'gulp-babel';
@@ -62,7 +61,7 @@ gulp.task('build-js', () => {
   return gulp.src(jsSourceDir)
     .on('error', onError)
     .pipe(babel())
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(header(banner, { pkg }))
     .pipe(gulp.dest(outputPaths.js))
     .pipe(connect.reload());

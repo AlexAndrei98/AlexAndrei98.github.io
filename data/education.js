@@ -1,6 +1,6 @@
 module.exports = [{
-  key: 'gatech',
-  name: 'Georgia Institute of Technology',
+  key: 'lu',
+  name: 'Lindenwood University',
   image: 'img/school/gatech.png',
   date: 'Aug. 2018 - ',
   gpa: '3.43 / 4.0',

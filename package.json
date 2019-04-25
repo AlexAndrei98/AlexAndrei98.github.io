@@ -32,5 +32,8 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "latest",
     "glob": "latest"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0"
   }
 }
