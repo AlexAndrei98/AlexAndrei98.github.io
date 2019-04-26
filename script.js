@@ -1,7 +1,7 @@
 /**
- * jasonpark.me - Jinseo Jason Park
+ * alexandrei98.github.com - Alex Andrei
  * @version v3.0.0
- * @link https://jasonpark.me/
+ * @link 
  * @license MIT
  */
 'use strict';var _slicedToArray = function () {function sliceIterator(arr, i) {var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"]) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}return function (arr, i) {if (Array.isArray(arr)) {return arr;} else if (Symbol.iterator in Object(arr)) {return sliceIterator(arr, i);} else {throw new TypeError("Invalid attempt to destructure non-iterable instance");}};}();function _toArray(arr) {return Array.isArray(arr) ? arr : Array.from(arr);}function _toConsumableArray(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;} else {return Array.from(arr);}}$(document).ready(function () {
@@ -224,7 +224,7 @@
 
   var paths = {
     users: {
-      jason: {
+      alex: {
         desktop: {} } } };
 
 
@@ -237,7 +237,7 @@
     }
   });var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {
     for (var _iterator = ids[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var id = _step.value;
-      var path = paths.users.jason.desktop;
+      var path = paths.users.alex.desktop;
       var sections = id.split('-');var _iteratorNormalCompletion7 = true;var _didIteratorError7 = false;var _iteratorError7 = undefined;try {
         for (var _iterator7 = sections[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {var section = _step7.value;
           if (!path[section]) {
@@ -260,7 +260,7 @@
   var hackertyper = null;
   var hackertyperIndex = null;
   var resetTerminal = function resetTerminal() {
-    currentDirectories = ['users', 'jason', 'desktop'];
+    currentDirectories = ['users', 'alex', 'desktop'];
     tabPressed = false;
     resetHackertyper();
     newInputLine(true);
@@ -278,11 +278,11 @@
     var $newLine = $('<div class="line">');
     if (prompt) {
       var directories = [].concat(_toConsumableArray(currentDirectories));
-      if (directories[0] === 'users' && directories[1] === 'jason') {
+      if (directories[0] === 'users' && directories[1] === 'alex') {
         directories.splice(0, 2, '~');
       }
       var path = directories.join('/') || '/';
-      $newLine.append('jason@world:' + path + '$ ');
+      $newLine.append('alex@world:' + path + '$ ');
     }
     var $cursor = $terminal.find('.cursor');
     $cursor.removeClass('cursor');
@@ -297,7 +297,7 @@
       directories = [];
       tokens.shift();
     } else if (tokens[0] === '~') {
-      directories = ['users', 'jason'];
+      directories = ['users', 'alex'];
       tokens.shift();
     }var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {
       for (var _iterator2 = tokens[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var token = _step2.value;
@@ -368,7 +368,7 @@
       case 'help':{
           print([
           ' *help*            show all the possible commands',
-          ' *whoami* [-a]     display information about Jason',
+          ' *whoami* [-a]     display information about alex',
           ' *cd* {dir}        change the working directory',
           ' *ls* {dir}        list directory contents',
           ' *pwd*             return the working directory',
@@ -468,7 +468,7 @@
                 print('The file /' + directories.join('/') + ' does not exist.');
                 return 'continue';
               }
-              if (directories[0] === 'users' && directories[1] === 'jason' && directories[2] === 'desktop') {
+              if (directories[0] === 'users' && directories[1] === 'alex' && directories[2] === 'desktop') {
                 directories.splice(0, 3);
               }
               var hash = '#' + directories.join('-');

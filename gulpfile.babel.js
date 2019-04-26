@@ -20,7 +20,7 @@ const outputPaths = {
 
 const banner = [
   '/**',
-  ' * <%= pkg.name %> - <%= pkg.description %>',
+  ' * <%= Alex Andrei %> - <%= pkg.description %>',
   ' * @version v<%= pkg.version %>',
   ' * @link <%= pkg.homepage %>',
   ' * @license <%= pkg.license %>',

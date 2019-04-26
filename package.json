@@ -1,7 +1,7 @@
 {
   "name": "alexandrei98.github.com",
   "version": "3.0.0",
-  "description": "Jinseo Jason Park",
+  "description": "Alex Andrei",
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/parkjs814/parkjs814.github.io"
   },
-  "author": "Jinseo Jason Park",
+  "author": "Alex Andrei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/parkjs814/parkjs814.github.io/issues"

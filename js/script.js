@@ -218,7 +218,7 @@ $(document).ready(() => {
 
   const paths = {
     users: {
-      jason: {
+      alex: {
         desktop: {},
       },
     },
@@ -231,7 +231,7 @@ $(document).ready(() => {
     }
   });
   for (const id of ids) {
-    let path = paths.users.jason.desktop;
+    let path = paths.users.alex.desktop;
     const sections = id.split('-');
     for (const section of sections) {
       if (!path[section]) {
@@ -254,7 +254,7 @@ $(document).ready(() => {
   let hackertyper = null;
   let hackertyperIndex = null;
   const resetTerminal = () => {
-    currentDirectories = ['users', 'jason', 'desktop'];
+    currentDirectories = ['users', 'alex', 'desktop'];
     tabPressed = false;
     resetHackertyper();
     newInputLine(true);
@@ -272,11 +272,11 @@ $(document).ready(() => {
     const $newLine = $('<div class="line">');
     if (prompt) {
       const directories = [...currentDirectories];
-      if (directories[0] === 'users' && directories[1] === 'jason') {
+      if (directories[0] === 'users' && directories[1] === 'alex') {
         directories.splice(0, 2, '~');
       }
       const path = directories.join('/') || '/';
-      $newLine.append(`jason@world:${path}$ `);
+      $newLine.append(`alex@world:${path}$ `);
     }
     const $cursor = $terminal.find('.cursor');
     $cursor.removeClass('cursor');
@@ -291,7 +291,7 @@ $(document).ready(() => {
       directories = [];
       tokens.shift();
     } else if (tokens[0] === '~') {
-      directories = ['users', 'jason'];
+      directories = ['users', 'alex'];
       tokens.shift();
     }
     for (const token of tokens) {
@@ -362,7 +362,7 @@ $(document).ready(() => {
       case 'help': {
         print([
           ' *help*            show all the possible commands',
-          ' *whoami* [-a]     display information about Jason',
+          ' *whoami* [-a]     display information about alex',
           ' *cd* {dir}        change the working directory',
           ' *ls* {dir}        list directory contents',
           ' *pwd*             return the working directory',
@@ -462,7 +462,7 @@ $(document).ready(() => {
             print(`The file /${directories.join('/')} does not exist.`);
             continue;
           }
-          if (directories[0] === 'users' && directories[1] === 'jason' && directories[2] === 'desktop') {
+          if (directories[0] === 'users' && directories[1] === 'alex' && directories[2] === 'desktop') {
             directories.splice(0, 3);
           }
           const hash = '#' + directories.join('-');
