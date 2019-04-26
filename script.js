@@ -368,7 +368,7 @@
       case 'help':{
           print([
           ' *help*            show all the possible commands',
-          ' *whoami* [-j]     display information about Jason',
+          ' *whoami* [-a]     display information about Jason',
           ' *cd* {dir}        change the working directory',
           ' *ls* {dir}        list directory contents',
           ' *pwd*             return the working directory',
@@ -381,17 +381,17 @@
           break;
         }
       case 'whoami':{
-          if (options.includes('j')) {
+          if (options.includes('a')) {
             print([
-            '*Jinseo Jason Park*',
+            '*Alex Andrei*',
             ''].concat(_toConsumableArray(
             personalStatement.split('\n'))),
             true);
           } else {
             print([
-            '*Jinseo Jason Park*',
+            '*Alex Andrei*',
             'I am a developer, hackathoner, and backpacker.',
-            'Type "*whoami -j*" to show my journey so far.'],
+            'Type "*whoami -a*" to show my journey so far.'],
             true);
           }
           break;

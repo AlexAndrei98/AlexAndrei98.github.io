@@ -1,43 +1,55 @@
 module.exports = [{
-  key: 'gtscheduler',
-  name: 'GT Scheduler',
-  image: 'img/project/gtscheduler.png',
+  key: 'VolunteerU',
+  name: 'VolunteerU',
+  image: 'img/project/VU.png',
+  date: '2019',
+  link: 'https://devpost.com/software/volunteeru',
+  detail: 'VolunteerU is a Web application that connects the user with volunteer opportunities that fit into their interests. Users are able to keep track of their hours through the application\'s point system.',
+},{
+  key: 'foodconverter',
+  name: 'Scan it off',
+  image: 'img/project/fc.jpg',
+  date: '2019',
+  link: 'https://devpost.com/software/foodconverter',
+  detail: 'Scan it off, allows you to take a picture of a food item and get instant feedback for the best way to keep off the extra weight from the potential calories we would gain from our inability of having self control',
+},{
+  key: 'geodude',
+  name: 'GeoDude',
+  image: 'img/project/GeoDude.png',
   date: '2018',
-  link: 'https://jasonpark.me/gt-scheduler/',
-  detail: 'Scheduling is always a pain in the ass. GT Scheduler helps Georgia Tech students find the schedules that fit them best among all the possible combinations of courses.',
-}, {
-  key: 'codehigh',
-  name: 'CodeHigh',
-  image: 'img/project/codehigh.png',
+  link: 'https://devpost.com/software/geodude',
+  detail: 'Geodude provides an environment were geography, media, and journalism can coexist. Together creating a union that will help spread global news instantaneously',
+},{
+  key: 'count',
+  name: 'Count on Us',
+  image: 'img/project/Cus.png',
   date: '2017',
-  link: 'http://codehigh.net/',
-  detail: 'CodeHigh is a platform for coders to compete real-time. After 2 to 8 players join, a random algorithm problem is given. Each player writes his/her own solution within 3 minutes. Once everyone submits (or gives up), they vote for the most creative solution. CodeHigh lets users learn from others while having fun.',
-}, {
-  key: 'duocoder',
-  name: 'DuoCoder',
-  image: 'img/project/duocoder.png',
-  date: '2016 -',
-  link: 'https://jasonpark.me/DuoCoder/',
-  detail: 'Learning a programming language with a human language is pretty tough. What if we can learn a new programming language from another programming language that we already know?',
-}, {
-  key: 'algovis',
-  name: 'Algorithm Visualizer',
-  image: 'img/project/algovis.png',
+  link: 'https://devpost.com/software/count-on-us',
+  detail: 'Pill counters are a rarity in pharmacies because of how expensive they are. We came up the idea with using augmented reality to speed and and increase the quality and efficiency of pharmacist that work in retail that have to fill prescriptions.',
+
+},{
+  key: 'dictator',
+  name: 'The Dictator',
+  image: 'img/project/alexa.png',
+  date: '2017',
+  link: 'https://devpost.com/software/count-on-us',
+  detail: 'The dictator is an Alexa skill, that in a simple and natural way allows anyone to take notes with their voice wherever they are and have them display in real time on their virtual note board',
+
+},{
+  key: 'umadbro',
+  name: 'U Mad Bro?',
+  image: 'img/project/umadbro.png',
+  date: '2017',
+  link: 'https://devpost.com/software/u-mad-bro',
+  detail: 'Using a pebble watch, we are able to detect conversations, convert them to text and send them to IBM Watson, which will interpret the content and will gives us a range of emotions that can be inferred from the conversation.',
+
+},{
+  key: 'embracelet',
+  name: 'UEmBracelet',
+  image: 'img/project/EmBracelet.png',
   date: '2016',
-  link: 'https://algorithm-visualizer.org/',
-  detail: 'Algorithms were abstract concepts, but not anymore with visualization. Algorithm Visualizer not only visualizes a vast amount of algorithms but also lets you visualize your own algorithm.',
-}, {
-  key: 'hitw',
-  name: 'Hole in the Wall',
-  image: 'img/project/hitw.png',
-  date: '2015',
-  link: 'https://jasonpark.me/HoleInTheWall/',
-  detail: `You already know how to play this game if you've ever watched TV show 'Hole in the Wall.'`,
-}, {
-  key: 'taskbar7',
-  name: 'Taskbar 7',
-  image: 'img/project/taskbar7.png',
-  date: '2013',
-  link: 'https://www.youtube.com/watch?v=sQd3ySM3J0A',
-  detail: `Multitasking on Android is annoying. So I just transplanted Windows taskbar into Android. (Unfortunately, it is unavailable on Google Play since Google deprecated one of the core APIs it uses.)`,
-}];
+  link: 'https://devpost.com/software/embracelet',
+  detail: 'EmBracelet is an NFC/RFID silicon made bracelet that contains medical informations about yourself. You can upload on the cloud your emergency contacts, blood type, allergies and anything that you feel comfortable sharing. We also created a reader to give to those who own phones without NFC.',
+
+}
+];
