@@ -234,9 +234,7 @@ p, span, a {
     background-image: url('../images/contact_facebook.png');
 }
 
-.cell11 .link-email .glyphicon {
-    background-image: url('../images/contact_email.png');
-}
+
 
 .cell11 .link-github .glyphicon {
     background-image: url('../images/contact_github.png');

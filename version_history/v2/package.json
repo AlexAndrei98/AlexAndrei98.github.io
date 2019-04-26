@@ -1,5 +1,5 @@
 {
-  "name": "jasonpark.me",
+  "name": "alexandrei98.github.com",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/parkjs814/jasonpark.me.git"
+    "url": "https://github.com/alexandrei98.github.com.git"
   },
   "author": "Jason Park",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parkjs814/jasonpark.me/issues"
+    "url": "https://github.com/alexandrei98.github.com/issues"
   },
-  "homepage": "https://github.com/parkjs814/jasonpark.me",
+  "homepage": "https://github.com/alexandrei98.github.com",
   "devDependencies": {}
 }

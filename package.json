@@ -1,5 +1,5 @@
 {
-  "name": "jasonpark.me",
+  "name": "alexandrei98.github.com",
   "version": "3.0.0",
   "description": "Jinseo Jason Park",
   "scripts": {
@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/parkjs814/parkjs814.github.io/issues"
   },
-  "homepage": "https://jasonpark.me/",
   "devDependencies": {
     "babel-core": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
