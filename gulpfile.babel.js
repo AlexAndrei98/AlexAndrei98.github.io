@@ -72,7 +72,7 @@ gulp.task('build-pug', () => {
   gutil.log('\n\nBuild pug Paths: \n', pugSourceDir, '\n\n');
 
   const locals = {
-    title: 'Jason Park',
+    title: 'Alex Andrei\'s website',
     description: pkg.description,
     author: pkg.author,
     data: {},
